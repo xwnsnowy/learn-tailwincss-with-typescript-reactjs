@@ -65,14 +65,16 @@ export const UserProfile = () => {
           </p>
         </div>
         <div>
-          <p>
+          <p className="text-lg">
             Grant has been making video games for a living for more than 14
             years as a Designer, Producer, Creative Director, and Executive
             Producer, creating games for console, mobile, PC and Facebook.
           </p>
         </div>
         <div>
-          <button>Show more</button>
+          <button className="p-6 border-2 border-slate-300 rounded-md">
+            Show more
+          </button>
         </div>
       </div>
     </div>
