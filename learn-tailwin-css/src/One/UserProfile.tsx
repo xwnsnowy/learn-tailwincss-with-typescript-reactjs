@@ -72,7 +72,10 @@ export const UserProfile = () => {
           </p>
         </div>
         <div>
-          <button className="p-6 border-2 border-slate-300 rounded-md">
+          <button
+            className="p-2 border-2 border-slate-300 rounded-md"
+            type="submit"
+          >
             Show more
           </button>
         </div>
