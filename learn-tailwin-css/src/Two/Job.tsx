@@ -10,7 +10,7 @@ interface JobProps {
 const Job: React.FC<JobProps> = ({ title, icon, bgClass: bgColor }) => {
   return (
     <div
-      className={`w-28 h-28 flex flex-col justify-center border border-rose-100 rounded-lg items-center ${bgColor}`}
+      className={`flex h-28 w-28 flex-col items-center justify-center rounded-lg border border-rose-100 ${bgColor}`}
     >
       {icon}
       <span>{title}</span>

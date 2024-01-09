@@ -3,13 +3,13 @@ import Job from "./Job";
 const JobList = () => {
   return (
     <>
-      <div className="w-96 h-96 bg-violet-100 rounded-3xl absolute"></div>
-      <div className="w-[40rem] bg-white rounded-3xl p-16 shadow-2xl absolute">
+      <div className="absolute h-96 w-96 rounded-3xl bg-violet-100"></div>
+      <div className="absolute w-[40rem] rounded-3xl bg-white p-16 shadow-2xl">
         <div>
-          <div className="flex justify-between items-center">
-            <div className="relative border-2 rounded-md grow border-gray-300 mr-1">
+          <div className="flex items-center justify-between">
+            <div className="relative mr-1 grow rounded-md border-2 border-gray-300">
               <input
-                className="pr-1 pl-10 py-2 w-full"
+                className="w-full py-2 pl-10 pr-1"
                 type="text"
                 name=""
                 id=""
@@ -22,7 +22,7 @@ const JobList = () => {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-5 h-5 absolute left-3 text-gray-400 top-1/2 transform -translate-y-1/2"
+                className="absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 transform text-gray-400"
               >
                 <path
                   strokeLinecap="round"
@@ -31,14 +31,14 @@ const JobList = () => {
                 />
               </svg>
             </div>
-            <button className="border rounded-md bg-indigo-950 px-5 py-2 text-white hover:bg-red-600 h-full">
+            <button className="h-full rounded-md border bg-indigo-950 px-5 py-2 text-white hover:bg-red-600">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-5 h-5 inline-block mr-1"
+                className="mr-1 inline-block h-5 w-5"
               >
                 <path
                   strokeLinecap="round"
@@ -60,7 +60,7 @@ const JobList = () => {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="w-6 h-6"
+                  className="h-6 w-6"
                 >
                   <path
                     strokeLinecap="round"
@@ -80,7 +80,7 @@ const JobList = () => {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="w-6 h-6"
+                  className="h-6 w-6"
                 >
                   <path
                     strokeLinecap="round"
@@ -100,7 +100,7 @@ const JobList = () => {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="w-6 h-6"
+                  className="h-6 w-6"
                 >
                   <path
                     strokeLinecap="round"
@@ -120,7 +120,7 @@ const JobList = () => {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="w-6 h-6"
+                  className="h-6 w-6"
                 >
                   <path
                     strokeLinecap="round"
@@ -140,7 +140,7 @@ const JobList = () => {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="w-6 h-6"
+                  className="h-6 w-6"
                 >
                   <path
                     strokeLinecap="round"
@@ -160,7 +160,7 @@ const JobList = () => {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="w-6 h-6"
+                  className="h-6 w-6"
                 >
                   <path
                     strokeLinecap="round"
@@ -180,7 +180,7 @@ const JobList = () => {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="w-6 h-6"
+                  className="h-6 w-6"
                 >
                   <path
                     strokeLinecap="round"
@@ -200,7 +200,7 @@ const JobList = () => {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="w-6 h-6"
+                  className="h-6 w-6"
                 >
                   <path
                     strokeLinecap="round"
