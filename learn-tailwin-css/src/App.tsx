@@ -2,7 +2,8 @@
 // import JobList from "./Two/JobList";
 // import Collections from "./Three/Collections";
 // import ReviewForm from "./Four/ReviewForm";
-import UserList from "./Five/UserList";
+// import UserList from "./Five/UserList";
+import Notifications from "./Six/Notifications";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* <JobList /> */}
       {/* <Collections /> */}
       {/* <ReviewForm /> */}
-      <UserList />
+      {/* <UserList /> */}
+      <Notifications />
     </div>
   );
 }

@@ -48,7 +48,7 @@ const users: User[] = [
 
 const UserList = () => {
   const [query, setQuery] = useState("");
-  
+
   const TAGS: string[] = [
     "Reputation",
     "New users",
@@ -94,7 +94,7 @@ const UserList = () => {
               />
             </svg>
           </div>
-          <div className="flex items-center space-x-4 max-md:mt-4">
+          <div className="flex items-center space-x-4 max-md:mt-4 ">
             {TAGS.map((tag) => (
               <a
                 href=""
@@ -110,7 +110,7 @@ const UserList = () => {
       <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 ">
         {filterUsers.map((user, index) => (
           <div
-            className="flex cursor-pointer gap-x-4 rounded-2xl border-[1px] border-white  p-8 hover:border-indigo-500 hover:shadow-lg"
+            className="flex cursor-pointer gap-x-4 rounded-2xl border-[1px] border-white  p-6 hover:border-indigo-500 hover:shadow-lg"
             key={index}
           >
             <img
@@ -121,11 +121,11 @@ const UserList = () => {
             <div>
               <h2 className="font-['Poppins'] font-bold">{user.name}</h2>
               <p>{user.place}</p>
-              <div className="mt-4 space-x-2">
+              <div className="mt-4">
                 {user.tags.map((tag) => (
                   <span
                     key={tag}
-                    className="inline-block rounded-full border-[1px] border-slate-400 px-1 font-['Poppins'] text-xs text-indigo-600"
+                    className="mr-2 inline-block rounded-full border-[1px] border-slate-400 px-1 font-['Poppins'] text-xs text-indigo-600"
                   >
                     {tag}
                   </span>
