@@ -3,7 +3,8 @@
 // import Collections from "./Three/Collections";
 // import ReviewForm from "./Four/ReviewForm";
 // import UserList from "./Five/UserList";
-import Notifications from "./Six/Notifications";
+// import Notifications from "./Six/Notifications";
+import Subscription from "./Seven/Subscription";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <Collections /> */}
       {/* <ReviewForm /> */}
       {/* <UserList /> */}
-      <Notifications />
+      {/* <Notifications /> */}
+      <Subscription />
     </div>
   );
 }
